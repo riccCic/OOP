@@ -51,7 +51,7 @@ public class Exercises {
 
         studente.setName(" ");
         studente.getName();
-
+        System.out.println(Studente.numberName);
 
 
 
