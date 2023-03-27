@@ -47,7 +47,7 @@ public class Exercises {
 
         //Write your code here
         Studente studente = new Studente("Riccardo ", "Ciciriello, ", 25, " via c.monterosa,12");
-        studente.StudenteVoto("Riccardo", 59);
+        studente.studenteVoto("Riccardo", 59);
 
         studente.setName(" ");
         studente.getName();
