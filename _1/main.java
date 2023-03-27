@@ -33,9 +33,7 @@ public class main {
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
 
         // Use a for i loop
-        createNewStudent("Alice", 23);
-        createNewStudent("Aragon", 31);
-        createNewStudent("Alex", 38);
+        
         for (int i = 0; i < studentNames.size(); i++) {
             createNewStudent(studentNames.get(i), studentAges.get(i));
             System.out.printf(studentNames.get(i) + " ha " + studentAges.get(i) + " " + "/");
