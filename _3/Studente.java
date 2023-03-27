@@ -76,7 +76,7 @@ public class Studente {
         this.votoSuperiori = votoSuperiori;
     }
 
-    public void StudenteVoto(String name, int votoSuperiori) {
+    public void studenteVoto(String name, int votoSuperiori) {
         this.votoSuperiori = votoSuperiori;
         if (votoSuperiori < 60) {
             System.out.println("non puoi essere ammesso perchè hai:" + votoSuperiori);
