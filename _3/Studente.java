@@ -7,7 +7,7 @@ public class Studente {
     private String indirizzo;
     private int maxAgeInCourse = 0;
     private int votoSuperiori = 0;
-
+    static int numberName = 0;
 
     public Studente(String name, String lastname, int age, String indirizzo) {
         this.name = name;
@@ -27,6 +27,7 @@ public class Studente {
         } else {
             System.out.println("valido");
         }
+        numberName = numberName++;
         return name;
     }
 
