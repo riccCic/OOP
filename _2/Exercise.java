@@ -25,10 +25,17 @@ public class Exercise {
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
         List<Student> students = new ArrayList<>();
 
-        for (int i = 0; i < studentAges.size(); i++) {
-            // Write create students
-            new Student("Riccardo", 25);
-
+       students.add(new Student("Alice",23));
+        students.add(new Student("Bob",31));
+        students.add(new Student("Charlie",38));
+//        for (int i = 0; i < studentAges.size(); i++) {
+//            // Write create students
+//            System.out.println(students.get(i));
+//
+//        }
+        for (int i = 0; i < studentNames.size(); i++) {
+            Student student = new Student(studentNames.get(i), studentAges.get(i));
+            students.add(student);
         }
     }
 
